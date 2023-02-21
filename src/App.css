@@ -5,6 +5,20 @@ body{
   margin: 0 auto;
 }
 
+.loader{
+  position: absolute;
+  top: 2px;
+ 
+
+}
+
+.loader img{
+  width: 90px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+}
+
 header{
   text-align: center;
 }
@@ -78,7 +92,7 @@ article{
   border-bottom: 1px solid black; 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   body {
     width: 90%;
     padding-left: 5%;
