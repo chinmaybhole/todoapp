@@ -80,9 +80,7 @@ article{
   
 }
 
-ul{
-  padding-left:0;
-}
+
 
 .edit-todo{
   background-color: transparent;
@@ -110,10 +108,9 @@ ul{
   header h1{
     font-size: 50px;
   }
-
-  article{
-    display: subgrid;
-   
+  
+  ul{
+    padding-left:0;
   }
   
 
